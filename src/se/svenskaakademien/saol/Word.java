@@ -1,22 +1,5 @@
-/**
- *---------------------------------------------------------------------
- * Copyright Ericsson AB 2012
- *
- * All rights reserved. No part of this computer programs(s) may be
- * used, reproduced, stored in any retrieval system, or transmitted,
- * in any form or by any means, electronic, mechanical, photocopying,
- * recording, or otherwise without prior written permission of
- * Ericsson AB.
- *---------------------------------------------------------------------
- */
 package se.svenskaakademien.saol;
 
-/**
- * 
- * Created 20 feb 2012
- * 
- * @author erasmat
- */
 public class Word {
 
     private String word;
