@@ -1,25 +1,25 @@
 saol-extractor
 ==============
 
-<b>DISCLAIMER:</b>
+<b>DISCLAIMER:</b><br/>
 This application is (hopefully) legal but the way you use the material that you can extract with it might not be. I have no part or responsibility in your actions!! 
 
-<b>For the English speaking</b>
+<b>For the English speaking</b><br/>
 This Android app allows you to extract SAOL (Svenska Akademins Ordlista, a Swedish wordlist) from the Android App into a plain text file to use it for whatever personal pupose you want. Since you must understand Swedish for the wordlist to be of any meaning, the rest of this readme file is in Swedish for convenience reasons.
 
-<b>Översikt</b>
+<b>Översikt</b><br/>
 Som sagt: Denna app demonstrerar hur man kan extrahera precis allt innehåll i Svenska Akademins Ordlista via deras app som finns att hämta gratis från Google Play. 
 Även om applikationen inte på något sätt är fullständig och kan hämta ut precis alla börningar mm. visar den principen ganska så väl och det är relativt enkelt att bygga ut den om man skulle vilja ha den informationen också. 
 
 saol-extractor är testad med version 1.0.6 av SAOLs appen men principen borde fungera för vilken version som helst då den är ganska så generell.
 
-<b>Förkrav</b> 
+<b>Förkrav</b><br/>
 - En styck fysisk Android telefon som kan köra SAOL appen. 
 - En apk dekompilator, exempelvis dex2jar.  
 - Android SDK installerad på din dator (behövs för att ladda på appen).
 - Git.
 
-<b>Tillvägagång</b>
+<b>Tillvägagång</b><br/>
 1, Använd din Android telefon för att ladda ner SAOL appen från Google Play. 
 
 2, Här kan det krävas en del pillande: Du måste nu extrahera SAOL appens apk-fil från telefonen till datorn. 
@@ -44,11 +44,4 @@ Placera libsaoldict.so i den nyskapade katalogen.
 
 8, Starta simulatorn och ladda på appen. I sitt grundutförande kommer applikationen att skriva ner alla ord till /sdcard/saoldict.txt. Detta kan dock ändras i SAOLActivity.java.  
 
-Lycka till!
- 
-
-
-
-
-
-
+<b>Lycka till!</b>
